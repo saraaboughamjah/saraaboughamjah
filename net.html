@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var name;
+        var salary ;
+        var nsalry ;
+        name=prompt ("enter emply name");
+        salary=prompt("enter employ salary");
+        document.write("the empoly <b>"+name+"</b> has salary <b>"+salary+"</b> <br/>");
+        if(salary>=2000){
+            nsalry= salary-(0.1*salary);
+            document.write("the netsalary is" +nsalry);
+            document.write("is good salary ");
+
+
+        }
+        else
+        {nsalry= salary-(0.05*salary);
+            document.write("the netsalary is" +nsalry);
+            document.write("is weak salary ");
+
+        }
+        
+        
+    </script>
+</body>
+</html>
